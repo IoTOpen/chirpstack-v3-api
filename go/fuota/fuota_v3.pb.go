@@ -992,8 +992,8 @@ const file_fuota_fuota_v3_proto_rawDesc = "" +
 	"\x12FUOTAServerService\x12[\n" +
 	"\x10CreateDeployment\x12!.fuota_v3.CreateDeploymentRequest\x1a\".fuota_v3.CreateDeploymentResponse\"\x00\x12d\n" +
 	"\x13GetDeploymentStatus\x12$.fuota_v3.GetDeploymentStatusRequest\x1a%.fuota_v3.GetDeploymentStatusResponse\"\x00\x12p\n" +
-	"\x17GetDeploymentDeviceLogs\x12(.fuota_v3.GetDeploymentDeviceLogsRequest\x1a).fuota_v3.GetDeploymentDeviceLogsResponse\"\x00BK\n" +
-	"\x1aio.chirpstack.api_v3.fuotaZ-github.com/brocaar/chirpstack-api/go/v3/fuotab\x06proto3"
+	"\x17GetDeploymentDeviceLogs\x12(.fuota_v3.GetDeploymentDeviceLogsRequest\x1a).fuota_v3.GetDeploymentDeviceLogsResponse\"\x00BN\n" +
+	"\x1aio.chirpstack.api_v3.fuotaZ0github.com/IoTOpen/chirpstack-v3-api/go/v3/fuotab\x06proto3"
 
 var (
 	file_fuota_fuota_v3_proto_rawDescOnce sync.Once

@@ -7,7 +7,7 @@
 package gw
 
 import (
-	common "github.com/brocaar/chirpstack-api/go/v3/common"
+	common "github.com/IoTOpen/chirpstack-v3-api/go/v3/common"
 	duration "github.com/golang/protobuf/ptypes/duration"
 	timestamp "github.com/golang/protobuf/ptypes/timestamp"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
@@ -2925,8 +2925,8 @@ const file_gw_gw_v3_proto_rawDesc = "" +
 	"\n" +
 	"QUEUE_FULL\x10\t\x12\x12\n" +
 	"\x0eINTERNAL_ERROR\x10\n" +
-	"BU\n" +
-	"\x17io.chirpstack.api_v3.gwB\fGatewayProtoP\x01Z*github.com/brocaar/chirpstack-api/go/v3/gwb\x06proto3"
+	"BX\n" +
+	"\x17io.chirpstack.api_v3.gwB\fGatewayProtoP\x01Z-github.com/IoTOpen/chirpstack-v3-api/go/v3/gwb\x06proto3"
 
 var (
 	file_gw_gw_v3_proto_rawDescOnce sync.Once

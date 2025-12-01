@@ -8,8 +8,8 @@ package geo
 
 import (
 	context "context"
-	common "github.com/brocaar/chirpstack-api/go/v3/common"
-	gw "github.com/brocaar/chirpstack-api/go/v3/gw"
+	common "github.com/IoTOpen/chirpstack-v3-api/go/v3/common"
+	gw "github.com/IoTOpen/chirpstack-v3-api/go/v3/gw"
 	grpc "google.golang.org/grpc"
 	codes "google.golang.org/grpc/codes"
 	status "google.golang.org/grpc/status"
@@ -356,8 +356,8 @@ const file_geo_geo_v3_proto_rawDesc = "" +
 	"\x06result\x18\x01 \x01(\v2\x15.geo_v3.ResolveResultR\x06result2\xcc\x01\n" +
 	"\x18GeolocationServerService\x12H\n" +
 	"\vResolveTDOA\x12\x1a.geo_v3.ResolveTDOARequest\x1a\x1b.geo_v3.ResolveTDOAResponse\"\x00\x12f\n" +
-	"\x15ResolveMultiFrameTDOA\x12$.geo_v3.ResolveMultiFrameTDOARequest\x1a%.geo_v3.ResolveMultiFrameTDOAResponse\"\x00Ba\n" +
-	"\x18io.chirpstack.api_v3.geoB\x16GeolocationServerProtoP\x01Z+github.com/brocaar/chirpstack-api/go/v3/geob\x06proto3"
+	"\x15ResolveMultiFrameTDOA\x12$.geo_v3.ResolveMultiFrameTDOARequest\x1a%.geo_v3.ResolveMultiFrameTDOAResponse\"\x00Bd\n" +
+	"\x18io.chirpstack.api_v3.geoB\x16GeolocationServerProtoP\x01Z.github.com/IoTOpen/chirpstack-v3-api/go/v3/geob\x06proto3"
 
 var (
 	file_geo_geo_v3_proto_rawDescOnce sync.Once

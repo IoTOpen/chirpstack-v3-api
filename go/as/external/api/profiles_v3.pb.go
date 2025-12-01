@@ -733,8 +733,8 @@ const file_as_external_api_profiles_v3_proto_rawDesc = "" +
 	"\n" +
 	"RatePolicy\x12\b\n" +
 	"\x04DROP\x10\x00\x12\b\n" +
-	"\x04MARK\x10\x01Bs\n" +
-	"'io.chirpstack.api_v3.as_v3.external.apiB\rProfilesProtoP\x01Z7github.com/brocaar/chirpstack-api/go/v3/as/external/apib\x06proto3"
+	"\x04MARK\x10\x01Bv\n" +
+	"'io.chirpstack.api_v3.as_v3.external.apiB\rProfilesProtoP\x01Z:github.com/IoTOpen/chirpstack-v3-api/go/v3/as/external/apib\x06proto3"
 
 var (
 	file_as_external_api_profiles_v3_proto_rawDescOnce sync.Once

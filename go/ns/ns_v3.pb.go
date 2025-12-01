@@ -8,8 +8,8 @@ package ns
 
 import (
 	context "context"
-	common "github.com/brocaar/chirpstack-api/go/v3/common"
-	gw "github.com/brocaar/chirpstack-api/go/v3/gw"
+	common "github.com/IoTOpen/chirpstack-v3-api/go/v3/common"
+	gw "github.com/IoTOpen/chirpstack-v3-api/go/v3/gw"
 	duration "github.com/golang/protobuf/ptypes/duration"
 	empty "github.com/golang/protobuf/ptypes/empty"
 	timestamp "github.com/golang/protobuf/ptypes/timestamp"
@@ -5272,8 +5272,8 @@ const file_ns_ns_v3_proto_rawDesc = "" +
 	"\n" +
 	"GetVersion\x12\x16.google.protobuf.Empty\x1a\x19.ns_v3.GetVersionResponse\"\x00\x12M\n" +
 	"\x10GetADRAlgorithms\x12\x16.google.protobuf.Empty\x1a\x1f.ns_v3.GetADRAlgorithmsResponse\"\x00\x12N\n" +
-	"\x11ClearDeviceNonces\x12\x1f.ns_v3.ClearDeviceNoncesRequest\x1a\x16.google.protobuf.Empty\"\x00BU\n" +
-	"\x17io.chirpstack.api_v3.nsB\x12NetworkServerProtoP\x01Z$github.com/brocaar/chirpstack-api/nsb\x06proto3"
+	"\x11ClearDeviceNonces\x12\x1f.ns_v3.ClearDeviceNoncesRequest\x1a\x16.google.protobuf.Empty\"\x00BX\n" +
+	"\x17io.chirpstack.api_v3.nsB\x12NetworkServerProtoP\x01Z'github.com/IoTOpen/chirpstack-v3-api/nsb\x06proto3"
 
 var (
 	file_ns_ns_v3_proto_rawDescOnce sync.Once

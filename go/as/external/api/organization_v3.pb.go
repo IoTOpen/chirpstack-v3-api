@@ -1287,8 +1287,8 @@ const file_as_external_api_organization_v3_proto_rawDesc = "" +
 	"\n" +
 	"UpdateUser\x12%.api_v3.UpdateOrganizationUserRequest\x1a\x16.google.protobuf.Empty\"c\x82\xd3\xe4\x93\x02]:\x01*\x1aX/api/organizations/{organization_user.organization_id}/users/{organization_user.user_id}\x12\x89\x01\n" +
 	"\n" +
-	"DeleteUser\x12%.api_v3.DeleteOrganizationUserRequest\x1a\x16.google.protobuf.Empty\"<\x82\xd3\xe4\x93\x026*4/api/organizations/{organization_id}/users/{user_id}Bw\n" +
-	"'io.chirpstack.api_v3.as_v3.external.apiB\x11OrganizationProtoP\x01Z7github.com/brocaar/chirpstack-api/go/v3/as/external/apib\x06proto3"
+	"DeleteUser\x12%.api_v3.DeleteOrganizationUserRequest\x1a\x16.google.protobuf.Empty\"<\x82\xd3\xe4\x93\x026*4/api/organizations/{organization_id}/users/{user_id}Bz\n" +
+	"'io.chirpstack.api_v3.as_v3.external.apiB\x11OrganizationProtoP\x01Z:github.com/IoTOpen/chirpstack-v3-api/go/v3/as/external/apib\x06proto3"
 
 var (
 	file_as_external_api_organization_v3_proto_rawDescOnce sync.Once

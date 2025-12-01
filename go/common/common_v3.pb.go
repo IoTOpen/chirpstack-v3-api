@@ -500,8 +500,8 @@ const file_common_common_v3_proto_rawDesc = "" +
 	"\x11GEO_RESOLVER_TDOA\x10\x03\x12\x15\n" +
 	"\x11GEO_RESOLVER_RSSI\x10\x04\x12\x15\n" +
 	"\x11GEO_RESOLVER_GNSS\x10\x05\x12\x15\n" +
-	"\x11GEO_RESOLVER_WIFI\x10\x06B\\\n" +
-	"\x1bio.chirpstack.api_v3.commonB\vCommonProtoP\x01Z.github.com/brocaar/chirpstack-api/go/v3/commonb\x06proto3"
+	"\x11GEO_RESOLVER_WIFI\x10\x06B_\n" +
+	"\x1bio.chirpstack.api_v3.commonB\vCommonProtoP\x01Z1github.com/IoTOpen/chirpstack-v3-api/go/v3/commonb\x06proto3"
 
 var (
 	file_common_common_v3_proto_rawDescOnce sync.Once

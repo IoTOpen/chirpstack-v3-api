@@ -826,8 +826,8 @@ const file_as_external_api_user_v3_proto_rawDesc = "" +
 	"/api/users\x12\\\n" +
 	"\x06Update\x12\x19.api_v3.UpdateUserRequest\x1a\x16.google.protobuf.Empty\"\x1f\x82\xd3\xe4\x93\x02\x19:\x01*\x1a\x14/api/users/{user.id}\x12T\n" +
 	"\x06Delete\x12\x19.api_v3.DeleteUserRequest\x1a\x16.google.protobuf.Empty\"\x17\x82\xd3\xe4\x93\x02\x11*\x0f/api/users/{id}\x12u\n" +
-	"\x0eUpdatePassword\x12!.api_v3.UpdateUserPasswordRequest\x1a\x16.google.protobuf.Empty\"(\x82\xd3\xe4\x93\x02\":\x01*\x1a\x1d/api/users/{user_id}/passwordBo\n" +
-	"'io.chirpstack.api_v3.as_v3.external.apiB\tUserProtoP\x01Z7github.com/brocaar/chirpstack-api/go/v3/as/external/apib\x06proto3"
+	"\x0eUpdatePassword\x12!.api_v3.UpdateUserPasswordRequest\x1a\x16.google.protobuf.Empty\"(\x82\xd3\xe4\x93\x02\":\x01*\x1a\x1d/api/users/{user_id}/passwordBr\n" +
+	"'io.chirpstack.api_v3.as_v3.external.apiB\tUserProtoP\x01Z:github.com/IoTOpen/chirpstack-v3-api/go/v3/as/external/apib\x06proto3"
 
 var (
 	file_as_external_api_user_v3_proto_rawDescOnce sync.Once

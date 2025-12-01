@@ -8,8 +8,8 @@ package as
 
 import (
 	context "context"
-	common "github.com/brocaar/chirpstack-api/go/v3/common"
-	gw "github.com/brocaar/chirpstack-api/go/v3/gw"
+	common "github.com/IoTOpen/chirpstack-v3-api/go/v3/common"
+	gw "github.com/IoTOpen/chirpstack-v3-api/go/v3/gw"
 	empty "github.com/golang/protobuf/ptypes/empty"
 	timestamp "github.com/golang/protobuf/ptypes/timestamp"
 	grpc "google.golang.org/grpc"
@@ -1331,8 +1331,8 @@ const file_as_as_v3_proto_rawDesc = "" +
 	"\vHandleTxAck\x12\x19.as_v3.HandleTxAckRequest\x1a\x16.google.protobuf.Empty\"\x00\x12J\n" +
 	"\x0fSetDeviceStatus\x12\x1d.as_v3.SetDeviceStatusRequest\x1a\x16.google.protobuf.Empty\"\x00\x12N\n" +
 	"\x11SetDeviceLocation\x12\x1f.as_v3.SetDeviceLocationRequest\x1a\x16.google.protobuf.Empty\"\x00\x12p\n" +
-	"\x19ReEncryptDeviceQueueItems\x12'.as_v3.ReEncryptDeviceQueueItemsRequest\x1a(.as_v3.ReEncryptDeviceQueueItemsResponse\"\x00B_\n" +
-	"\x17io.chirpstack.api_v3.asB\x16ApplicationServerProtoP\x01Z*github.com/brocaar/chirpstack-api/go/v3/asb\x06proto3"
+	"\x19ReEncryptDeviceQueueItems\x12'.as_v3.ReEncryptDeviceQueueItemsRequest\x1a(.as_v3.ReEncryptDeviceQueueItemsResponse\"\x00Bb\n" +
+	"\x17io.chirpstack.api_v3.asB\x16ApplicationServerProtoP\x01Z-github.com/IoTOpen/chirpstack-v3-api/go/v3/asb\x06proto3"
 
 var (
 	file_as_as_v3_proto_rawDescOnce sync.Once

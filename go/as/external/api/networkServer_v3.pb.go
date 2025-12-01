@@ -901,8 +901,8 @@ const file_as_external_api_networkServer_v3_proto_rawDesc = "" +
 	"\x06Update\x12\".api_v3.UpdateNetworkServerRequest\x1a\x16.google.protobuf.Empty\"3\x82\xd3\xe4\x93\x02-:\x01*\x1a(/api/network-servers/{network_server.id}\x12g\n" +
 	"\x06Delete\x12\".api_v3.DeleteNetworkServerRequest\x1a\x16.google.protobuf.Empty\"!\x82\xd3\xe4\x93\x02\x1b*\x19/api/network-servers/{id}\x12i\n" +
 	"\x04List\x12 .api_v3.ListNetworkServerRequest\x1a!.api_v3.ListNetworkServerResponse\"\x1c\x82\xd3\xe4\x93\x02\x16\x12\x14/api/network-servers\x12\x96\x01\n" +
-	"\x10GetADRAlgorithms\x12\x1f.api_v3.GetADRAlgorithmsRequest\x1a .api_v3.GetADRAlgorithmsResponse\"?\x82\xd3\xe4\x93\x029\x127/api/network-servers/{network_server_id}/adr-algorithmsBx\n" +
-	"'io.chirpstack.api_v3.as_v3.external.apiB\x12NetworkServerProtoP\x01Z7github.com/brocaar/chirpstack-api/go/v3/as/external/apib\x06proto3"
+	"\x10GetADRAlgorithms\x12\x1f.api_v3.GetADRAlgorithmsRequest\x1a .api_v3.GetADRAlgorithmsResponse\"?\x82\xd3\xe4\x93\x029\x127/api/network-servers/{network_server_id}/adr-algorithmsB{\n" +
+	"'io.chirpstack.api_v3.as_v3.external.apiB\x12NetworkServerProtoP\x01Z:github.com/IoTOpen/chirpstack-v3-api/go/v3/as/external/apib\x06proto3"
 
 var (
 	file_as_external_api_networkServer_v3_proto_rawDescOnce sync.Once

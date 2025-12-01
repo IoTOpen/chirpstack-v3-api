@@ -8,7 +8,7 @@ package nc
 
 import (
 	context "context"
-	gw "github.com/brocaar/chirpstack-api/go/v3/gw"
+	gw "github.com/IoTOpen/chirpstack-v3-api/go/v3/gw"
 	empty "github.com/golang/protobuf/ptypes/empty"
 	grpc "google.golang.org/grpc"
 	codes "google.golang.org/grpc/codes"
@@ -447,8 +447,8 @@ const file_nc_nc_v3_proto_rawDesc = "" +
 	"\x14HandleUplinkMetaData\x12\".nc_v3.HandleUplinkMetaDataRequest\x1a\x16.google.protobuf.Empty\"\x00\x12X\n" +
 	"\x16HandleDownlinkMetaData\x12$.nc_v3.HandleDownlinkMetaDataRequest\x1a\x16.google.protobuf.Empty\"\x00\x12X\n" +
 	"\x16HandleUplinkMACCommand\x12$.nc_v3.HandleUplinkMACCommandRequest\x1a\x16.google.protobuf.Empty\"\x00\x12d\n" +
-	"\x1cHandleRejectedUplinkFrameSet\x12*.nc_v3.HandleRejectedUplinkFrameSetRequest\x1a\x16.google.protobuf.Empty\"\x00B_\n" +
-	"\x17io.chirpstack.api_v3.ncB\x16NetworkControllerProtoP\x01Z*github.com/brocaar/chirpstack-api/go/v3/ncb\x06proto3"
+	"\x1cHandleRejectedUplinkFrameSet\x12*.nc_v3.HandleRejectedUplinkFrameSetRequest\x1a\x16.google.protobuf.Empty\"\x00Bb\n" +
+	"\x17io.chirpstack.api_v3.ncB\x16NetworkControllerProtoP\x01Z-github.com/IoTOpen/chirpstack-v3-api/go/v3/ncb\x06proto3"
 
 var (
 	file_nc_nc_v3_proto_rawDescOnce sync.Once

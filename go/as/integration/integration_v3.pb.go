@@ -7,8 +7,8 @@
 package integration
 
 import (
-	common "github.com/brocaar/chirpstack-api/go/v3/common"
-	gw "github.com/brocaar/chirpstack-api/go/v3/gw"
+	common "github.com/IoTOpen/chirpstack-v3-api/go/v3/common"
+	gw "github.com/IoTOpen/chirpstack-v3-api/go/v3/gw"
 	timestamp "github.com/golang/protobuf/ptypes/timestamp"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
@@ -1300,8 +1300,8 @@ const file_as_integration_integration_v3_proto_rawDesc = "" +
 	"\n" +
 	"UPLINK_MIC\x10\a\x12\x1e\n" +
 	"\x1aUPLINK_FCNT_RETRANSMISSION\x10\b\x12\x14\n" +
-	"\x10DOWNLINK_GATEWAY\x10\tBt\n" +
-	"&io.chirpstack.api_v3.as_v3.integrationB\x10IntegrationProtoP\x01Z6github.com/brocaar/chirpstack-api/go/v3/as/integrationb\x06proto3"
+	"\x10DOWNLINK_GATEWAY\x10\tBw\n" +
+	"&io.chirpstack.api_v3.as_v3.integrationB\x10IntegrationProtoP\x01Z9github.com/IoTOpen/chirpstack-v3-api/go/v3/as/integrationb\x06proto3"
 
 var (
 	file_as_integration_integration_v3_proto_rawDescOnce sync.Once
