@@ -8,7 +8,7 @@ package api
 
 import (
 	context "context"
-	common "github.com/brocaar/chirpstack-api/go/v3/common"
+	common "github.com/IoTOpen/chirpstack-v3-api/go/v3/common"
 	duration "github.com/golang/protobuf/ptypes/duration"
 	empty "github.com/golang/protobuf/ptypes/empty"
 	timestamp "github.com/golang/protobuf/ptypes/timestamp"
@@ -757,8 +757,8 @@ const file_as_external_api_gatewayProfile_v3_proto_rawDesc = "" +
 	"\x03Get\x12 .api_v3.GetGatewayProfileRequest\x1a!.api_v3.GetGatewayProfileResponse\"\"\x82\xd3\xe4\x93\x02\x1c\x12\x1a/api/gateway-profiles/{id}\x12|\n" +
 	"\x06Update\x12#.api_v3.UpdateGatewayProfileRequest\x1a\x16.google.protobuf.Empty\"5\x82\xd3\xe4\x93\x02/:\x01*\x1a*/api/gateway-profiles/{gateway_profile.id}\x12i\n" +
 	"\x06Delete\x12#.api_v3.DeleteGatewayProfileRequest\x1a\x16.google.protobuf.Empty\"\"\x82\xd3\xe4\x93\x02\x1c*\x1a/api/gateway-profiles/{id}\x12n\n" +
-	"\x04List\x12\".api_v3.ListGatewayProfilesRequest\x1a#.api_v3.ListGatewayProfilesResponse\"\x1d\x82\xd3\xe4\x93\x02\x17\x12\x15/api/gateway-profilesBy\n" +
-	"'io.chirpstack.api_v3.as_v3.external.apiB\x13GatewayProfileProtoP\x01Z7github.com/brocaar/chirpstack-api/go/v3/as/external/apib\x06proto3"
+	"\x04List\x12\".api_v3.ListGatewayProfilesRequest\x1a#.api_v3.ListGatewayProfilesResponse\"\x1d\x82\xd3\xe4\x93\x02\x17\x12\x15/api/gateway-profilesB|\n" +
+	"'io.chirpstack.api_v3.as_v3.external.apiB\x13GatewayProfileProtoP\x01Z:github.com/IoTOpen/chirpstack-v3-api/go/v3/as/external/apib\x06proto3"
 
 var (
 	file_as_external_api_gatewayProfile_v3_proto_rawDescOnce sync.Once

@@ -8,7 +8,7 @@ package api
 
 import (
 	context "context"
-	common "github.com/brocaar/chirpstack-api/go/v3/common"
+	common "github.com/IoTOpen/chirpstack-v3-api/go/v3/common"
 	empty "github.com/golang/protobuf/ptypes/empty"
 	timestamp "github.com/golang/protobuf/ptypes/timestamp"
 	_ "google.golang.org/genproto/googleapis/api/annotations"
@@ -1597,8 +1597,8 @@ const file_as_external_api_gateway_v3_proto_rawDesc = "" +
 	"\bGetStats\x12\x1e.api_v3.GetGatewayStatsRequest\x1a\x1f.api_v3.GetGatewayStatsResponse\"(\x82\xd3\xe4\x93\x02\"\x12 /api/gateways/{gateway_id}/stats\x12u\n" +
 	"\vGetLastPing\x12\x1a.api_v3.GetLastPingRequest\x1a\x1b.api_v3.GetLastPingResponse\"-\x82\xd3\xe4\x93\x02'\x12%/api/gateways/{gateway_id}/pings/last\x12\xbe\x01\n" +
 	" GenerateGatewayClientCertificate\x12/.api_v3.GenerateGatewayClientCertificateRequest\x1a0.api_v3.GenerateGatewayClientCertificateResponse\"7\x82\xd3\xe4\x93\x021\"//api/gateways/{gateway_id}/generate-certificate\x12\x8d\x01\n" +
-	"\x0fStreamFrameLogs\x12%.api_v3.StreamGatewayFrameLogsRequest\x1a&.api_v3.StreamGatewayFrameLogsResponse\")\x82\xd3\xe4\x93\x02#\x12!/api/gateways/{gateway_id}/frames0\x01Br\n" +
-	"'io.chirpstack.api_v3.as_v3.external.apiB\fGatewayProtoP\x01Z7github.com/brocaar/chirpstack-api/go/v3/as/external/apib\x06proto3"
+	"\x0fStreamFrameLogs\x12%.api_v3.StreamGatewayFrameLogsRequest\x1a&.api_v3.StreamGatewayFrameLogsResponse\")\x82\xd3\xe4\x93\x02#\x12!/api/gateways/{gateway_id}/frames0\x01Bu\n" +
+	"'io.chirpstack.api_v3.as_v3.external.apiB\fGatewayProtoP\x01Z:github.com/IoTOpen/chirpstack-v3-api/go/v3/as/external/apib\x06proto3"
 
 var (
 	file_as_external_api_gateway_v3_proto_rawDescOnce sync.Once

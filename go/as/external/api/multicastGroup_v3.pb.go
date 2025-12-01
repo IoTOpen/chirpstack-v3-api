@@ -1211,8 +1211,8 @@ const file_as_external_api_multicastGroup_v3_proto_rawDesc = "" +
 	"\aEnqueue\x12(.api_v3.EnqueueMulticastQueueItemRequest\x1a).api_v3.EnqueueMulticastQueueItemResponse\"P\x82\xd3\xe4\x93\x02J:\x01*\"E/api/multicast-groups/{multicast_queue_item.multicast_group_id}/queue\x12\x8c\x01\n" +
 	"\n" +
 	"FlushQueue\x12,.api_v3.FlushMulticastGroupQueueItemsRequest\x1a\x16.google.protobuf.Empty\"8\x82\xd3\xe4\x93\x022*0/api/multicast-groups/{multicast_group_id}/queue\x12\xa0\x01\n" +
-	"\tListQueue\x12+.api_v3.ListMulticastGroupQueueItemsRequest\x1a,.api_v3.ListMulticastGroupQueueItemsResponse\"8\x82\xd3\xe4\x93\x022\x120/api/multicast-groups/{multicast_group_id}/queueBy\n" +
-	"'io.chirpstack.api_v3.as_v3.external.apiB\x13MulticastGroupProtoP\x01Z7github.com/brocaar/chirpstack-api/go/v3/as/external/apib\x06proto3"
+	"\tListQueue\x12+.api_v3.ListMulticastGroupQueueItemsRequest\x1a,.api_v3.ListMulticastGroupQueueItemsResponse\"8\x82\xd3\xe4\x93\x022\x120/api/multicast-groups/{multicast_group_id}/queueB|\n" +
+	"'io.chirpstack.api_v3.as_v3.external.apiB\x13MulticastGroupProtoP\x01Z:github.com/IoTOpen/chirpstack-v3-api/go/v3/as/external/apib\x06proto3"
 
 var (
 	file_as_external_api_multicastGroup_v3_proto_rawDescOnce sync.Once

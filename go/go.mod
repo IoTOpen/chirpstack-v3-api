@@ -3,7 +3,6 @@ module github.com/IoTOpen/chirpstack-v3-api/go/v3
 go 1.24.0
 
 require (
-	github.com/brocaar/chirpstack-api/go/v3 v3.12.5
 	github.com/golang/protobuf v1.5.4
 	github.com/grpc-ecosystem/grpc-gateway v1.16.0
 	google.golang.org/genproto/googleapis/api v0.0.0-20251124214823-79d6a2a48846
