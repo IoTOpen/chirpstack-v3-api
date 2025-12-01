@@ -1495,8 +1495,8 @@ const file_as_external_api_internal_v3_proto_rawDesc = "" +
 	"\bSettings\x12\x16.google.protobuf.Empty\x1a\x18.api_v3.SettingsResponse\"\x1e\x82\xd3\xe4\x93\x02\x18\x12\x16/api/internal/settings\x12}\n" +
 	"\x12OpenIDConnectLogin\x12!.api_v3.OpenIDConnectLoginRequest\x1a\".api_v3.OpenIDConnectLoginResponse\" \x82\xd3\xe4\x93\x02\x1a\x12\x18/api/internal/oidc/login\x12\x7f\n" +
 	"\x11GetDevicesSummary\x12 .api_v3.GetDevicesSummaryRequest\x1a!.api_v3.GetDevicesSummaryResponse\"%\x82\xd3\xe4\x93\x02\x1f\x12\x1d/api/internal/devices/summary\x12\x83\x01\n" +
-	"\x12GetGatewaysSummary\x12!.api_v3.GetGatewaysSummaryRequest\x1a\".api_v3.GetGatewaysSummaryResponse\"&\x82\xd3\xe4\x93\x02 \x12\x1e/api/internal/gateways/summaryBv\n" +
-	"'io.chirpstack.api_v3.as_v3.external.apiB\rInternalProtoP\x01Z:github.com/IoTOpen/chirpstack-v3-api/go/v3/as/external/apib\x06proto3"
+	"\x12GetGatewaysSummary\x12!.api_v3.GetGatewaysSummaryRequest\x1a\".api_v3.GetGatewaysSummaryResponse\"&\x82\xd3\xe4\x93\x02 \x12\x1e/api/internal/gateways/summaryBs\n" +
+	"'io.chirpstack.api_v3.as_v3.external.apiB\rInternalProtoP\x01Z7github.com/brocaar/chirpstack-api/go/v3/as/external/apib\x06proto3"
 
 var (
 	file_as_external_api_internal_v3_proto_rawDescOnce sync.Once

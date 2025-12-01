@@ -4430,8 +4430,8 @@ const file_as_external_api_application_v3_proto_rawDesc = "" +
 	"\x1cUpdatePilotThingsIntegration\x12+.api_v3.UpdatePilotThingsIntegrationRequest\x1a\x16.google.protobuf.Empty\"S\x82\xd3\xe4\x93\x02M:\x01*\x1aH/api/applications/{integration.application_id}/integrations/pilot-things\x12\xa9\x01\n" +
 	"\x1cDeletePilotThingsIntegration\x12+.api_v3.DeletePilotThingsIntegrationRequest\x1a\x16.google.protobuf.Empty\"D\x82\xd3\xe4\x93\x02>*</api/applications/{application_id}/integrations/pilot-things\x12\x8c\x01\n" +
 	"\x10ListIntegrations\x12\x1e.api_v3.ListIntegrationRequest\x1a\x1f.api_v3.ListIntegrationResponse\"7\x82\xd3\xe4\x93\x021\x12//api/applications/{application_id}/integrations\x12\xe7\x01\n" +
-	"(GenerateMQTTIntegrationClientCertificate\x127.api_v3.GenerateMQTTIntegrationClientCertificateRequest\x1a8.api_v3.GenerateMQTTIntegrationClientCertificateResponse\"H\x82\xd3\xe4\x93\x02B\"@/api/applications/{application_id}/integrations/mqtt/certificateBy\n" +
-	"'io.chirpstack.api_v3.as_v3.external.apiB\x10ApplicationProtoP\x01Z:github.com/IoTOpen/chirpstack-v3-api/go/v3/as/external/apib\x06proto3"
+	"(GenerateMQTTIntegrationClientCertificate\x127.api_v3.GenerateMQTTIntegrationClientCertificateRequest\x1a8.api_v3.GenerateMQTTIntegrationClientCertificateResponse\"H\x82\xd3\xe4\x93\x02B\"@/api/applications/{application_id}/integrations/mqtt/certificateBv\n" +
+	"'io.chirpstack.api_v3.as_v3.external.apiB\x10ApplicationProtoP\x01Z7github.com/brocaar/chirpstack-api/go/v3/as/external/apib\x06proto3"
 
 var (
 	file_as_external_api_application_v3_proto_rawDescOnce sync.Once

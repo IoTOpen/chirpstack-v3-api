@@ -395,8 +395,8 @@ const file_as_external_api_deviceQueue_v3_proto_rawDesc = "" +
 	"\x12DeviceQueueService\x12\x93\x01\n" +
 	"\aEnqueue\x12%.api_v3.EnqueueDeviceQueueItemRequest\x1a&.api_v3.EnqueueDeviceQueueItemResponse\"9\x82\xd3\xe4\x93\x023:\x01*\"./api/devices/{device_queue_item.dev_eui}/queue\x12f\n" +
 	"\x05Flush\x12\x1f.api_v3.FlushDeviceQueueRequest\x1a\x16.google.protobuf.Empty\"$\x82\xd3\xe4\x93\x02\x1e*\x1c/api/devices/{dev_eui}/queue\x12w\n" +
-	"\x04List\x12#.api_v3.ListDeviceQueueItemsRequest\x1a$.api_v3.ListDeviceQueueItemsResponse\"$\x82\xd3\xe4\x93\x02\x1e\x12\x1c/api/devices/{dev_eui}/queueBy\n" +
-	"'io.chirpstack.api_v3.as_v3.external.apiB\x10DeviceQueueProtoP\x01Z:github.com/IoTOpen/chirpstack-v3-api/go/v3/as/external/apib\x06proto3"
+	"\x04List\x12#.api_v3.ListDeviceQueueItemsRequest\x1a$.api_v3.ListDeviceQueueItemsResponse\"$\x82\xd3\xe4\x93\x02\x1e\x12\x1c/api/devices/{dev_eui}/queueBv\n" +
+	"'io.chirpstack.api_v3.as_v3.external.apiB\x10DeviceQueueProtoP\x01Z7github.com/brocaar/chirpstack-api/go/v3/as/external/apib\x06proto3"
 
 var (
 	file_as_external_api_deviceQueue_v3_proto_rawDescOnce sync.Once

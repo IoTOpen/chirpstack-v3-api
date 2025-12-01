@@ -8,7 +8,7 @@ package api
 
 import (
 	context "context"
-	common "github.com/IoTOpen/chirpstack-v3-api/go/v3/common"
+	common "github.com/brocaar/chirpstack-api/go/v3/common"
 	empty "github.com/golang/protobuf/ptypes/empty"
 	timestamp "github.com/golang/protobuf/ptypes/timestamp"
 	_ "google.golang.org/genproto/googleapis/api/annotations"
@@ -2106,8 +2106,8 @@ const file_as_external_api_device_v3_proto_rawDesc = "" +
 	"\bGetStats\x12\x1d.api_v3.GetDeviceStatsRequest\x1a\x1e.api_v3.GetDeviceStatsResponse\"$\x82\xd3\xe4\x93\x02\x1e\x12\x1c/api/devices/{dev_eui}/stats\x12\x87\x01\n" +
 	"\x0fStreamFrameLogs\x12$.api_v3.StreamDeviceFrameLogsRequest\x1a%.api_v3.StreamDeviceFrameLogsResponse\"%\x82\xd3\xe4\x93\x02\x1f\x12\x1d/api/devices/{dev_eui}/frames0\x01\x12\x87\x01\n" +
 	"\x0fStreamEventLogs\x12$.api_v3.StreamDeviceEventLogsRequest\x1a%.api_v3.StreamDeviceEventLogsResponse\"%\x82\xd3\xe4\x93\x02\x1f\x12\x1d/api/devices/{dev_eui}/events0\x01\x12v\n" +
-	"\x11ClearDeviceNonces\x12 .api_v3.ClearDeviceNoncesRequest\x1a\x16.google.protobuf.Empty\"'\x82\xd3\xe4\x93\x02!*\x1f/api/devices/{dev_eui}/devnonceBt\n" +
-	"'io.chirpstack.api_v3.as_v3.external.apiB\vDeviceProtoP\x01Z:github.com/IoTOpen/chirpstack-v3-api/go/v3/as/external/apib\x06proto3"
+	"\x11ClearDeviceNonces\x12 .api_v3.ClearDeviceNoncesRequest\x1a\x16.google.protobuf.Empty\"'\x82\xd3\xe4\x93\x02!*\x1f/api/devices/{dev_eui}/devnonceBq\n" +
+	"'io.chirpstack.api_v3.as_v3.external.apiB\vDeviceProtoP\x01Z7github.com/brocaar/chirpstack-api/go/v3/as/external/apib\x06proto3"
 
 var (
 	file_as_external_api_device_v3_proto_rawDescOnce sync.Once

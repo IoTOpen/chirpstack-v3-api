@@ -585,8 +585,8 @@ const file_as_external_api_serviceProfile_v3_proto_rawDesc = "" +
 	"\x03Get\x12 .api_v3.GetServiceProfileRequest\x1a!.api_v3.GetServiceProfileResponse\"\"\x82\xd3\xe4\x93\x02\x1c\x12\x1a/api/service-profiles/{id}\x12|\n" +
 	"\x06Update\x12#.api_v3.UpdateServiceProfileRequest\x1a\x16.google.protobuf.Empty\"5\x82\xd3\xe4\x93\x02/:\x01*\x1a*/api/service-profiles/{service_profile.id}\x12i\n" +
 	"\x06Delete\x12#.api_v3.DeleteServiceProfileRequest\x1a\x16.google.protobuf.Empty\"\"\x82\xd3\xe4\x93\x02\x1c*\x1a/api/service-profiles/{id}\x12l\n" +
-	"\x04List\x12!.api_v3.ListServiceProfileRequest\x1a\".api_v3.ListServiceProfileResponse\"\x1d\x82\xd3\xe4\x93\x02\x17\x12\x15/api/service-profilesB|\n" +
-	"'io.chirpstack.api_v3.as_v3.external.apiB\x13ServiceProfileProtoP\x01Z:github.com/IoTOpen/chirpstack-v3-api/go/v3/as/external/apib\x06proto3"
+	"\x04List\x12!.api_v3.ListServiceProfileRequest\x1a\".api_v3.ListServiceProfileResponse\"\x1d\x82\xd3\xe4\x93\x02\x17\x12\x15/api/service-profilesBy\n" +
+	"'io.chirpstack.api_v3.as_v3.external.apiB\x13ServiceProfileProtoP\x01Z7github.com/brocaar/chirpstack-api/go/v3/as/external/apib\x06proto3"
 
 var (
 	file_as_external_api_serviceProfile_v3_proto_rawDescOnce sync.Once

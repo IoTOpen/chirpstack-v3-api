@@ -7,8 +7,8 @@
 package api
 
 import (
-	_ "github.com/IoTOpen/chirpstack-v3-api/go/v3/common"
-	gw "github.com/IoTOpen/chirpstack-v3-api/go/v3/gw"
+	_ "github.com/brocaar/chirpstack-api/go/v3/common"
+	gw "github.com/brocaar/chirpstack-api/go/v3/gw"
 	_ "github.com/golang/protobuf/ptypes/duration"
 	timestamp "github.com/golang/protobuf/ptypes/timestamp"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
@@ -233,8 +233,8 @@ const file_as_external_api_frameLog_v3_proto_rawDesc = "" +
 	"\fpublished_at\x18\x04 \x01(\v2\x1a.google.protobuf.TimestampR\vpublishedAt*\x1c\n" +
 	"\bRXWindow\x12\a\n" +
 	"\x03RX1\x10\x00\x12\a\n" +
-	"\x03RX2\x10\x01Bv\n" +
-	"'io.chirpstack.api_v3.as_v3.external.apiB\rFrameLogProtoP\x01Z:github.com/IoTOpen/chirpstack-v3-api/go/v3/as/external/apib\x06proto3"
+	"\x03RX2\x10\x01Bs\n" +
+	"'io.chirpstack.api_v3.as_v3.external.apiB\rFrameLogProtoP\x01Z7github.com/brocaar/chirpstack-api/go/v3/as/external/apib\x06proto3"
 
 var (
 	file_as_external_api_frameLog_v3_proto_rawDescOnce sync.Once
